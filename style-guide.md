@@ -11,6 +11,8 @@ The designs were created to the following widths:
 
 ### Neutral
 
+<!-- Наборы цветов для тёмной и светлой темы -->
+
 - Dark Blue (Dark Mode Elements): hsl(209, 23%, 22%)
 - Very Dark Blue (Dark Mode Background): hsl(207, 26%, 17%)
 - Very Dark Blue (Light Mode Text): hsl(200, 15%, 8%)
@@ -27,6 +29,8 @@ The designs were created to the following widths:
 
 ### Fonts
 
+<!-- google-шрифт -->
+
 - Family: [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans)
 - Weights: 300, 600, 800
 
@@ -35,6 +39,8 @@ The designs were created to the following widths:
 For the icons, you can use a font icon library. Don't worry if the icons that you choose don't look exactly like they do on the design.
 
 Some suggestions can be found below:
+
+<!-- Нам предлагают воспользоваться иконками из этих сервисов -->
 
 - [Font Awesome](https://fontawesome.com)
 - [IcoMoon](https://icomoon.io)

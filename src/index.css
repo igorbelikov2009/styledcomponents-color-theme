@@ -9,12 +9,14 @@
 Без этого файла @import-normalize будет ругаться
 */
 
+/* Устанавливаем шрифт с выбранными вариантами насыщенности */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
+/* Набросаем набор переменных  */
 :root {
   /* Typography */
   --family: "Nunito Sans", sans-serif;
