@@ -23,7 +23,7 @@ const Header = () => {
     <HeaderEl>
       <Container>
         <Wrapper>
-          <Title>Where is the world?</Title>
+          <Title to={"/"}>Где находится мир?</Title>
           <ModeSwitcher onClick={toogleTheme}>
             {theme === "light" ? <IoMoonOutline size={"14px"} /> : <IoMoon size={"14px"} />}
             <span style={{ marginLeft: "0.75rem" }}> {theme} Theme</span>

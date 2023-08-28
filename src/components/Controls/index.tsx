@@ -1,24 +1,17 @@
-import React, { FC, useState, useEffect } from "react";
+import React, { FC, SetStateAction } from "react";
 import { Wrapper } from "./styles";
 import Search from "../Search";
 import { CustomSelect } from "../CustomSelect";
 import { optionsControls } from "../../data";
 
 interface ControlsProps {
-  onSearch: (search: string, regionValue: string) => void;
+  search: string;
+  setSearch: React.Dispatch<SetStateAction<string>>;
+  region: string;
+  setRegion: React.Dispatch<SetStateAction<any>>;
 }
 
-const Controls: FC<ControlsProps> = ({ onSearch }) => {
-  const [search, setSearch] = useState("");
-  const [region, setRegion] = useState<React.SetStateAction<any>>("");
-
-  useEffect(() => {
-    // console.log(region);
-    // Подготовим даные: получаем либо значение селектора, либо пустую строку
-    const regionValue = region || "";
-    onSearch(search, regionValue);
-  }, [onSearch, region, search]);
-
+const Controls: FC<ControlsProps> = ({ search, setSearch, region, setRegion }) => {
   return (
     <Wrapper>
       <Search search={search} setSearch={setSearch} />
